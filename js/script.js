@@ -5,8 +5,8 @@ const Continue = document.querySelector("#continue");
 const qna = document.querySelector(".question");
 const nextQna = document.querySelector(".nextBtn");
 const timeCount = document.querySelector(".timeCount .second");
-const timeLine = document.querySelector(".questionHeader .timeLines"); 
-const timeOff = document.querySelector(".QuestionsHeader .timeLeft"); 
+const timeLine = document.querySelector(".questionHeader .timeLines");
+const timeOff = document.querySelector(".QuestionsHeader .timeLeft");
 const winner = document.querySelector(".resultBox");
 const quitQuiz = document.querySelector(".resultBtn .quit");
 
@@ -24,20 +24,11 @@ Continue.onclick = () => {
   startTimeLine(0);
 };
 
-
-
-
 // quit Button====================================================================
-
-
 
 quitQuiz.onclick = () => {
   window.location.reload();
 };
-
-
-
-
 
 var counter; //this is time counter
 let timeValue = 15; //this is the time value of quiz timer
@@ -149,12 +140,6 @@ function showResultBox() {
   }
 }
 
-
-
-
-
-
-
 // timer count===================================================
 
 function startTimer(time) {
@@ -171,9 +156,8 @@ function startTimer(time) {
     if (time < 0) {
       clearInterval(counter);
       timeCount.textContent = "00";
-      
-      timeOff.textContent = "Time Off";
 
+      timeOff.textContent = "Time Off";
     }
   }
 }

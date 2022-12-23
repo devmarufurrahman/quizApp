@@ -7,7 +7,7 @@ let question = [
       "Hyper Text Multiply Language",
       "Hyper Text Markup Language",
       "Hyper Tool Multi Language",
-      "Hyper Text Preprocessor"
+      "Hyper Text Preprocessor",
     ],
   },
   {
@@ -18,7 +18,7 @@ let question = [
       "Cascading Style Sheet",
       "Computer Style Sheet",
       "Class Style Sheet",
-      "Crush Style Sheet"
+      "Crush Style Sheet",
     ],
   },
   {
@@ -29,8 +29,8 @@ let question = [
       "Hypertext Processor",
       "Hypertext Pre-programming",
       "Hypertext Preprocessor",
-      "Hyper Text Programming"
-    ]
+      "Hyper Text Programming",
+    ],
   },
   {
     numb: 4,
@@ -40,7 +40,7 @@ let question = [
       "Structure Question Language",
       "Stylesheet Query Language",
       "Statement Query Language",
-      "Structure Query Language"
+      "Structure Query Language",
     ],
   },
   {
@@ -51,7 +51,7 @@ let question = [
       "eXtensible Markup Language",
       "eXtra Markup Language",
       "eXcitable Markup Language",
-      "eXtensible Markup Light"
+      "eXtensible Markup Light",
     ],
   },
 ];
